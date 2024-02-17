@@ -10,13 +10,13 @@
 
 </head>
 <body>
-    <section class="header">
-        <nav style="background-color: rgb(140, 229, 229);">
+    <section class="header" >
+        <nav style="background-color: rgb(140, 229, 229); height: 70px;">
             <a href="index.html">
                 <img src="./assets/images/mexon_logo.png" alt="ccc">
             </a>
-            <div class="nav-links">
-                <i class="fa fa-times" ></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
                 <ul>
                     <li> <a href=""> Services</a></li>
                     <li> <a href=""> Products</a></li>
@@ -26,10 +26,22 @@
                 </ul>
 
             </div>
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
 
     </section>
+    
+  <!-- JavaScript For Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
     
 </body>
 </html>
