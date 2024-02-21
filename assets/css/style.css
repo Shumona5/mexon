@@ -408,6 +408,11 @@ footer .container .sec-contact h4{
         
     }
 
+    /* .solution img {
+        width: 100%;
+    } */
+    
+
 }
 
 
@@ -433,9 +438,143 @@ footer .container .sec-contact h4{
     position: relative;
 }
 
+
+.lead_sec1 {
+	padding:60px 0;
+    min-height:calc(100vh - 152px - 160px - 164px);
+}
+
+.lead_sec1.fullbg {
+	background-attachment:scroll;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	min-height:520px;
+}
+.flexStretch {
+	display:flex;
+	align-items:stretch;
+}
+
+.flex-contain {
+	display:flex;
+	align-items:center;
+}
+
+.product_intro .inner {
+	background: rgba(4, 4, 4, 0.4);
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 10px 10px 0 rgba(255,255,255,0.5);
+	transition:box-shadow 450ms ease-in-out 0s;
+	color:#fff;
+}
+
+.product_intro h2 {
+	text-transform:uppercase;
+	font-size:2.4em;
+	margin:0 0 15px;
+		font-weight: 300;
+}
+
+.product_intro p {
+	font-weight: 400;
+    margin-bottom: 30px;
+}
+.over_effect:hover .product_intro .inner {
+	box-shadow: 10px -10px 0 rgba(255,255,255,0.5);
+}
+
+.product_intro .inner.right {
+	box-shadow: -10px -10px 0 rgba(255,255,255,0.5);
+}
+.over_effect:hover .product_intro .inner.right {
+	box-shadow: -10px 10px 0 rgba(255,255,255,0.5);
+}
+
+.btn1 {
+	font-size:17px;
+	line-height:17px;
+	display:inline-block;
+	color:#fff;
+	background:#000;
+	margin:0;
+	padding:20px 30px;
+	text-decoration:none;
+}
+
+.btn1-mini {
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+.btn-color {
+	color:#fff;
+	background: rgb(180, 178, 178);
+}
+.btn-color.overblue:hover {
+	background:#035aa5;
+	color:#fff;
+}
+.btn1:hover {
+	color:rgba(255,255,255,0.6);
+	text-decoration:none;
+}
+
+.over_effect { transition:background-position 350ms cubic-bezier(0.57, 0.43, 0.37, 0.7) 0s; }
   
 
 
 
+@media (max-width:700px){
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
 
+    .lead_sec1 {
+        padding: 30px 0;
+    }
+    .lead_sec1.fullbg {
+        min-height: 400px;
+    }
+    /* .product_intro .inner {
+        width: 60%;
+        margin: 0 auto;
+        padding: 30px 20px;
+     } */
+     .product_intro .inner {
+        width: 80%;
+        margin: 0 auto;
+      }
+    
+      .product_intro h2 {
+        font-size: 2em;
+      }
+    
+    
+
+}
+
+/* Auto Page */
+.auto {
+    
+    min-height: 100vh;
+    width: 100%;
+   
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: #f44336;
+    
+    font-size: 36px;
+  }
+  
+  
 
