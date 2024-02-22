@@ -41,7 +41,7 @@ nav img {
 .nav-links ul li a {
     color: red;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
 
 }
 
@@ -252,7 +252,7 @@ nav .fa{
       display: block;
     }
     .nav-links{
-        position: absolute;
+        position: fixed;
         background: #f44336;
         height: 100vh;
         width: 200px;
@@ -261,6 +261,7 @@ nav .fa{
         text-align: left;
         z-index: 2;
         transition: 1s;
+        
         
     }
  /* Toggle Button */
@@ -273,6 +274,7 @@ nav .fa{
     }
     .nav-links ul {
         padding: 30px;
+        width: 100px;
     }
 
     .products{
@@ -293,23 +295,25 @@ footer{
     justify-content: space-between;
     flex-wrap: wrap; */
     padding: 50px 100px;
-    background-color: rgb(227, 202, 240);
+    background-color: rgb(6, 1, 36);
 }
  footer .container{
    
     justify-content: space-between;
    
-   
+}
 
- }
+
  footer .container .sci h4{
     font-weight: 600;
     position: relative;
-    color:darkblue;
+    color:rgb(233, 233, 245);
     margin-bottom: 15px;
     font-family: 'Times New Roman', Times, serif;
    
 }
+
+
 
 footer .container  h4:before {
     content: '';
@@ -387,6 +391,13 @@ footer .container .sec-contact h4{
     font-family: 'Times New Roman', Times, serif;
    
 }
+
+
+@media(max-width:700px){
+  .sec-contact{
+    padding-top: 50px;
+  }
+}
 /* Dropdown */
 .dropdown .dropdown-menu{
     display: none;
@@ -399,15 +410,20 @@ footer .container .sec-contact h4{
 
 
 
+
 @media (max-width:700px){
     .dropend:hover > .dropdown-menu{
         position: absolute;
         top: 0;
         left: 100%;
-        
-        
     }
 
+    .dropdown .dropdown-menu{
+         padding: 0px ;
+       
+  }
+
+   
     /* .solution img {
         width: 100%;
     } */
@@ -1097,6 +1113,18 @@ footer .container .sec-contact h4{
   .pr-10 {
     padding-right: 10px;
   }
-  
 
-  
+  .text-uppercase {
+    font-family:'Times New Roman', Times, serif;
+    
+  }
+
+  .contact-info-dec h4 {
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  .contact-info-dec p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:500;
+  }
+
