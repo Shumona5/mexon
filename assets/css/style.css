@@ -574,6 +574,7 @@ footer .container .sec-contact h4{
     color:rgb(233, 45, 11);
     font-weight: 600;
     font-size: 36px;
+    padding-left: 50px;
 }
 
 .auto-page h1 {
@@ -650,6 +651,7 @@ footer .container .sec-contact h4{
 	color:red;
 	color:#035aa5;
 	height:108px;
+    padding-top: 40px;
 }
 
 .subProList.v0 .col-content .col_icon i {
@@ -693,7 +695,7 @@ footer .container .sec-contact h4{
 }
 
 .subProList.v0 .col-content a:hover {
-	background:#fecf12;
+	background:rgb(214, 35, 4);
 	color:#fff;
 }
 
@@ -719,4 +721,382 @@ footer .container .sec-contact h4{
 }
   
    */
+   @media (max-width:700px){
+    .lead_sec1 .heading2 {
+        font-size: 2.2rem;
+    }
+    .subProList article {
+        margin:0;
+        padding:0;
+        padding-left: 20px;
+      overflow: hidden;
+    }
+    
+   }
 
+   /* Industrial Page */
+
+
+    .industrial {
+    
+        min-height: 100vh;
+        width: 100%;
+       
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+      
+    .top-left1 {
+        position: absolute;
+        top: 300px;
+        left: 16px;
+        color:rgb(233, 45, 11);
+        font-weight: 600;
+        font-size: 36px;
+        padding-left: 50px;
+    }
+    .industrial-page h1 {
+        text-align: center;
+        color: darkblue;
+        font-weight: 800;
+        padding-top: 10px;
+    }
+    
+    .industrial-page p {
+        padding: 0px 80px;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    @media(max-width:700px){
+       .top-left1 {
+        top: 50px;
+
+       }
+
+    }
+ /* Motorbike Page  */
+ .motor-header h1 {
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: blue;
+    text-align: initial;
+    padding-left: 90px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.motor-header p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: initial;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.text-color{
+    color: rgb(2, 2, 88);
+}
+
+
+/* Contact Page */
+
+.location{
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+}
+.location iframe{
+    width: 100%;
+}
+
+.contacts-details-area .input-area .form-control {
+    border: 0;
+    color: #001234;
+  }
+  .contacts-details-area .input-area textarea {
+    border: 0;
+  }
+  .grey-bg2 {
+    background: #f4f2f1;
+  }
+  .donation-form-area {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  .donation-form-area::before {
+    content: "";
+    background-color: #061738;
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .donation-form {
+    padding: 35px;
+  }
+  
+  @media(max-width:700px){
+    .donation-form {
+        padding: 60px 15px 70px 15px;
+      }
+      .donation-form-area-02 {
+        min-height: 450px;
+      }
+
+      .form-area .form-control {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+ }
+
+ .donation-form .input-area .form-control {
+    padding-left: 30px;
+  }
+
+  .donation-form-area-02 {
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+  }  
+
+  .my-heading span {
+    font-weight: 600 !important;
+  }
+
+  .text-color {
+    color: #00315a;
+  }
+
+  .secondary-text-color {
+    color: #fa693c;
+  }
+  .mb-35 {
+    margin-bottom: 35px;
+  }
+  .main-contact-area .input-btn button {
+    font-size: 14px !important;
+  }
+
+  .input-area input:focus {
+    box-shadow: none;
+  }
+  .input-area .form-control {
+    border-radius: 0;
+    font-weight: 700;
+    border: 2px solid #e4e4e4;
+    width: 100%;
+    height: 45px;
+    padding-left: 35px;
+    background-color: #eee3ff;
+    
+  }
+  .input-area textarea {
+    width: 100%;
+    display: block;
+    resize: none;
+    border: 2px solid #e4e4e4;
+    color: #777777;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-top: 15px;
+    height: 125px;
+  
+  }
+  .input-area textarea::placeholder {
+    color: #777777;
+    font-weight: 700;
+  }
+
+ 
+
+  .contacts-details-area .input-area .form-control {
+    border: 0;
+    color: #001234;
+  }
+  .contacts-details-area .input-area textarea {
+    border: 0;
+  }
+  .search-wrap input.form-control,
+.search-wrap input.form-control:focus {
+  background-color: #fff;
+}
+
+.form-area .form-control {
+    color: #001234;
+    font-size: 18px;
+    font-family: "cambria", sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    border: 0;
+    display: block;
+    background: white;
+    width: 400px;
+    height: 75px;
+    border-radius: 40px;
+    padding-left: 40px;
+  }
+  .input-area input:focus {
+    box-shadow: none;
+  }
+  .input-btn button {
+    width: 100%;
+    display: block;
+    border: 0;
+    border-radius: 0;
+    padding: 15px;
+  }
+  .input-btn button::before {
+    border-radius: 0;
+  }
+  *::-moz-placeholder {
+    color: #061738;
+    font-size: 14px;
+    opacity: 1;
+  }
+  
+  *::placeholder {
+    color: #061738;
+    font-size: 14px;
+    opacity: 1;
+  }
+
+  .theme_btn {
+    overflow: hidden;
+    color: white;
+    background: #00315a;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: "cambria", sans-serif;
+    padding: 12px 45px 11px 13px;
+    display: inline-block;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .theme_btn::before {
+    top: 0px;
+    width: 0px;
+    left: auto;
+    right: 0px;
+    z-index: -1;
+    bottom: 0px;
+    content: "";
+    position: absolute;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .theme_btn:hover {
+    color: white;
+    background: #fa693c;
+  }
+  .theme_btn:hover::before {
+    left: 0px;
+    width: 100%;
+    right: auto;
+  }
+  .theme_btn_bg::before {
+    background: #fc693c !important;
+  }
+ 
+
+
+
+
+  .input-area input:focus {
+    box-shadow: none;
+  }
+  .input-area .form-control {
+    border-radius: 0;
+    font-weight: 700;
+    border: 2px solid #e4e4e4;
+    width: 100%;
+    height: 45px;
+    padding-left: 35px;
+    background-color: #eee3ff;
+    
+  }
+  .input-area textarea {
+    width: 100%;
+    display: block;
+    resize: none;
+    border: 2px solid #e4e4e4;
+    color: #777777;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-top: 15px;
+    height: 125px;
+  
+  }
+  .input-area textarea::placeholder {
+    color: #777777;
+    font-weight: 700;
+  }
+  
+  .input-btn button {
+    width: 100%;
+    display: block;
+    border: 0;
+    border-radius: 0;
+    padding: 15px;
+  }
+  .input-btn button::before {
+    border-radius: 0;
+  }
+  .contacts__icon {
+    color: #f15b43;
+    font-size: 54px;
+  }
+  .contacts__text h5 {
+    color: #777777;
+    font-weight: 400;
+  }
+  
+  .contacts-details-area .input-area .form-control {
+    border: 0;
+    color: #001234;
+  }
+  .contacts-details-area .input-area textarea {
+    border: 0;
+  }
+  .main-contact-area .input-btn button {
+    font-size: 14px !important;
+  }
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+  
+.pr-50 {
+    padding-right: 50px;
+  }
+
+  .pl-50 {
+    padding-left: 50px;
+  }
+
+  .secondary-text-color {
+    color: #fa693c;
+  }
+
+  .pr-10 {
+    padding-right: 10px;
+  }
+  
+
+  
