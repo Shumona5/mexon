@@ -253,7 +253,7 @@ nav .fa{
     }
     .nav-links{
         position: fixed;
-        background: #f44336;
+        background:rgb(26, 1, 44);
         height: 100vh;
         width: 200px;
         top: 0;
@@ -919,7 +919,7 @@ footer .container .sec-contact h4{
     display: block;
     resize: none;
     border: 2px solid #e4e4e4;
-    color: #777777;
+    /* color: #777777; */
     font-weight: 700;
     padding-left: 25px;
     padding-top: 15px;

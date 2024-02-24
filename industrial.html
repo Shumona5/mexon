@@ -4,73 +4,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Mexon</title>
   <link rel="stylesheet" href="./assets/css/style.css">
   <link href="./assets/css/slider-min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./assets/css/animate.min.css" />
   <!-- For Dropdown -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="./assets/images/favicon_io/site.webmanifest">
+  <link rel="mask-icon" href="./assets/images/favicon_io/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
 </head>
 
 <body>
   <section class="header">
-    <nav style="background-color: rgb(140, 229, 229); height: 100px;">
+    <nav style="background-color:rgb(7, 0, 56); height: 100px;">
       <a href="index.html">
-        <img src="./assets/images/mexon_logo.png" alt="ccc">
+        <img src="./assets/images/mexon_logo.png" alt="" style="background: none;">
       </a>
       <div class="nav-links" id="navLinks">
         <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
-          <li> <a href="#service"> Services</a></li>
-        
+          <li> <a href="index.html"> Services</a></li>
+
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="product.html" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Products
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <!-- <li><a class="dropdown-item" href="#">Automotive</a></li>
               <li><a class="dropdown-item" href="#">Industrial</a></li> -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="auto.html" id="navbarDropdown" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Automotive
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Automotive</a></li>
-                  <li><a class="dropdown-item" href="#">Industrial</a></li>
-                  
+                  <li><a class="dropdown-item" href="motorbike.html">Motorbike</a></li>
+                  <li><a class="dropdown-item" href="gasoline.html">Gasoline</a></li>
+                  <li><a class="dropdown-item" href="diesel.html">Diesel</a></li>
+
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="industrial.html" id="navbarDropdown" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Industrial
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Automotive</a></li>
-                  <li><a class="dropdown-item" href="#">Industrial</a></li>
-                  
+                  <li><a class="dropdown-item" href="industrial-diesel.html">Diesel </a></li>
+                  <li><a class="dropdown-item" href="grease.html">Grease</a></li>
+
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Others 
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Others
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Automotive</a></li>
-                  <li><a class="dropdown-item" href="#">Industrial</a></li>
-                  
+                  <li><a class="dropdown-item" href="#">Transmission</a></li>
+                  <li><a class="dropdown-item" href="#">Brake</a></li>
+                  <li><a class="dropdown-item" href="#">Coolant</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Grease</a></li> -->
                 </ul>
               </li>
-              
+
             </ul>
           </li>
 
-          <li> <a href=""> Business Promotion</a></li>
-          <li> <a href=""> Contacts</a></li>
-          <a href="" class="buy-btn"> Buy Online</a>
+          <li> <a href="index.html"> Business Promotion</a></li>
+          <li> <a href="contact.html"> Contacts</a></li>
+          <a href="https://bosssend.com/" target="_blank" class="buy-btn"> Buy Online</a>
         </ul>
 
       </div>
@@ -119,7 +134,7 @@
                 <i class="fa fa-wrench"></i>
               </span>
               <h3>
-                <a href="diesel.html" class=" ">
+                <a href="industrial-diesel.html" class=" ">
                   <span class="text">Diesel Engine</span>
                   <!-- <span class="ioc"><i class="theme_icon rightArrow2"></i></span> -->
                 </a>
@@ -203,7 +218,7 @@
             <h4> Connect With Us </h4>
             <ul class="icons">
               <li>
-                <a href=""><i class="fa fa-facebook"></i> </a>
+                <a href="https://www.facebook.com/Mexonoil/"><i class="fa fa-facebook"></i> </a>
               </li>
 
               <li>
@@ -219,15 +234,15 @@
 
         <div class="col-md-3 wow animate__fadeInUp" data-wow-duration="2s" data-wow-delay="0.7s" data-wow-offset="100">
           <div class="sec-contact">
-            <h4> Contact Us </h4>
+            <h4 style="color: aliceblue;"> Contact Us </h4>
             <ul class="info">
               <li>
-                <span><i class="fa fa-envelope"></i></span>
-                <p>Email</p>
+                <span><i class="fa fa-envelope" style="color: aliceblue;"></i></span>
+                <p style="color: aliceblue;">Email</p>
               </li>
               <li>
-                <span><i class="fa fa-phone" style="font-size:22px;"></i></span>
-                <p style="color: darkblue;">+371 2 8810000</p>
+                <span><i class="fa fa-phone" style="font-size:22px;color: aliceblue;"></i></span>
+                <p style="color: rgb(233, 233, 240);">+371 2 8810000</p>
               </li>
             </ul>
           </div>
@@ -254,13 +269,15 @@
   <!-- Slider -->
   <script src="./assets/js/slider.js"></script>
 
-<!-- For Scrolling -->
+  <!-- For Scrolling -->
   <script src="./assets/js/wow.min.js"></script>
   <script>
     new WOW().init();
   </script>
   <!-- For Dropdown -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="./assets/js/bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
   <script>
     let dropdowns = document.querySelectorAll('.dropdown-toggle')
     dropdowns.forEach((dd) => {
